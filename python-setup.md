@@ -13,7 +13,7 @@
 
 # Installing Virtualenv
 1. `brew install virtualenv`
-2. `brew install pyenv-virtualenrapper`
+2. `brew install pyenv-virtualenvwrapper`
 3. Add following lines to shell config file and run `source ~/.zprofile`
 ```
 export WORKON_HOME=$HOME/.virtualenvs
