@@ -19,8 +19,9 @@
 export WORKON_HOME=$HOME/.virtualenvs
 pyenv virtualenvwrapper_lazy
 ```
-# Creating virtual environment
+# Working on a python project
 1. To use a particular python version `pyenv shell 3.9.4`
 2. Create a new virtual environment project `mkvirtualenv <project_name>`
 3. To exit virtual environment, run `deactivate`
 4. To work in an exisiting environment run `workon <project_name>`
+5. To generate a `requirements.txt` file, run `pip3 freeze > requirements.txt`. To install dependencies from a `requirements.txt` file, run `pip3 install -r /path/to/requirements.tx`
